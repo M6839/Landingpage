@@ -1,0 +1,97 @@
+body{
+    background-image: url(./image10.jpeg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    animation: change 10s infinite ease-in-out;
+    transition-delay: 3s;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    height: 30px;
+    margin-top: 30px;
+
+}
+nav h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 40px;
+}
+nav h1:hover{
+    color:orange;
+}
+nav span:hover{
+    color:white;
+}
+.menu a{
+    text-decoration:none;
+    justify-content: inline;
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 20px;
+    color:white;
+}
+#home{
+    background-color: orange;
+}
+.menu a:hover{
+    background-color: orange;
+    border-radius: 7px;
+    transition: 3s;
+}
+.about{
+    margin-left: 40px;
+    margin-top: 150px;
+}
+h1{
+    color:white;
+    font-size: 70px;
+    font-weight: 900;
+}
+.about h1:hover{
+    color: aqua;
+    
+}
+span{
+    color: orange;
+} 
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+} 
+.about p:hover{
+    color: aqua;
+} 
+.about button{
+    text-decoration: none;
+    background-color: orange;
+    font-size: 30px;
+    border: orange;
+    border-radius: 10px;
+}  
+.about button:hover{
+    background-color: white;
+}
+.about a{
+    text-decoration: none;
+    color:white;
+}  
+.about a:hover{
+    color: black;
+}  
+@keyframes change {
+    0%{
+        background-image: url(./image5.jpg);
+    } 
+    40%{
+        background-image: url(./wp2135847.jpg);
+    }
+    
+    80%{
+        background-image: url(./image2.jpg);
+    }         
+}
