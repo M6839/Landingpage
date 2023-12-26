@@ -1,5 +1,5 @@
 body{
-    background-image: url(./image10.jpeg);
+    background-image: url(./image1.jpg);
     position: relative;
     background-size: cover;
     background-position: center;
@@ -87,11 +87,14 @@ p{
     0%{
         background-image: url(./image5.jpg);
     } 
-    40%{
-        background-image: url(./wp2135847.jpg);
+    20%{
+        background-image: url(.image3.jpg);
     }
     
-    80%{
-        background-image: url(./image2.jpg);
-    }         
+    40%{
+        background-image: url(./image4.jpeg);
+    } 
+     60%{
+        background-image: url(./image1.jpg);
+    }      
 }
